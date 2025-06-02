@@ -1,7 +1,8 @@
 export default {
   global: {
-    numeroUnidad: '3',
-    tituloUnidad: 'Bioética y sostenibilidad en el desarrollo económico global',
+    numeroUnidad: '1',
+    tituloUnidad:
+      'Fundamentos de la analítica avanzada y la toma de decisiones',
   },
   menuPrincipal: {
     menu: [
