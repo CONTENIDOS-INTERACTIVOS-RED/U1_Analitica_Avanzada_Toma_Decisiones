@@ -55,156 +55,128 @@ export default {
           {
             id: 1,
             texto:
-              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
+              'Imagina que trabajas en el área de logística de una empresa de comercio electrónico. Los clientes han reportado retrasos en las entregas durante los últimos meses. ¿Qué tipo de análisis deberías aplicar primero para comprender las causas de estos retrasos y qué herramienta tecnológica te sería más útil?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Son temporales y cambiantes',
+                texto: 'Análisis Prescriptivo con Python.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Son universales y aplican a todas las personas',
+                texto: 'Análisis Descriptivo con Power BI.',
                 esCorrecta: true,
               },
-              {
-                id: 'c',
-                texto: 'Son exclusivos de ciertos grupos',
-                esCorrecta: false,
-              },
+              { id: 'c', texto: 'Minería de Datos con R.', esCorrecta: false },
               {
                 id: 'd',
-                texto: 'Son opcionales',
+                texto: 'Análisis Predictivo con Excel.',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+            mensaje_correcto:
+              'Correcto. El análisis descriptivo te permitirá explorar los datos históricos de entregas para detectar patrones de retraso, y Power BI facilitará la visualización de esta información para la toma de decisiones.',
+            mensaje_incorrecto:
+              'Revisa la retroalimentación y vuelve a intentarlo.',
           },
           {
             id: 2,
             texto:
-              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
+              'En una empresa de alimentos, se desea predecir cuáles serán los productos más vendidos en la próxima temporada navideña. ¿Qué técnica de analítica avanzada sería la más adecuada para anticiparse a la demanda?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
-              {
-                id: 'a',
-                texto: 'Fomenta la homogeneización cultural',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Promueve el respeto y la aceptación de las diferencias',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Debilita la identidad cultural de los pueblos',
-                esCorrecta: false,
-              },
+              { id: 'a', texto: 'Análisis Predictivo.', esCorrecta: true },
+              { id: 'b', texto: 'Análisis Descriptivo.', esCorrecta: false },
+              { id: 'c', texto: 'Métodos Cualitativos.', esCorrecta: false },
               {
                 id: 'd',
-                texto: 'Limita las oportunidades de interacción',
+                texto: 'Optimización de la Cadena de Suministro.',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+            mensaje_correcto:
+              '¡Exacto! El análisis predictivo permite proyectar la demanda futura basándose en datos históricos y patrones de consumo anteriores, lo que facilita la planeación del inventario.',
+            mensaje_incorrecto:
+              'Revisa la retroalimentación y vuelve a intentarlo.',
           },
           {
             id: 3,
             texto:
-              'La mediación en un conflicto tiene como objetivo principal:',
+              'Una cadena de hoteles desea mejorar su servicio al cliente y personalizar sus ofertas según las preferencias de cada huésped. ¿Qué combinación de técnicas sería la más adecuada para obtener información relevante y proponer soluciones?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Imponer una solución rápida',
+                texto:
+                  'Métodos Cuantitativos y Optimización de la Cadena de Suministro.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Facilitar el diálogo entre las partes',
+                texto: 'Métodos Cualitativos y Machine Learning.',
                 esCorrecta: true,
               },
-              {
-                id: 'c',
-                texto: 'Determinar la culpabilidad',
-                esCorrecta: false,
-              },
+              { id: 'c', texto: 'Informes y KPI.', esCorrecta: false },
               {
                 id: 'd',
-                texto: 'Ignorar las preocupaciones de una parte',
+                texto: 'Simulación de Datos y Análisis Descriptivo.',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+            mensaje_correcto:
+              '¡Bien hecho! Métodos cualitativos, como entrevistas o encuestas, pueden captar las preferencias de los clientes, y con Machine Learning se pueden automatizar las recomendaciones personalizadas.',
+            mensaje_incorrecto:
+              'Revisa la retroalimentación y vuelve a intentarlo.',
           },
           {
             id: 4,
-            texto: 'En un foro comunitario, es importante:',
+            texto:
+              'Una empresa financiera está buscando reducir el riesgo de impago en los créditos otorgados. ¿Qué tipo de análisis podría aplicar para anticiparse a los clientes que probablemente no cumplirán con sus pagos?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
-              {
-                id: 'a',
-                texto: 'Escuchar solo a las autoridades',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Fomentar la participación de todos los miembros',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Decidir por votación sin consultar a los demás',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Excluir las opiniones de los más jóvenes',
-                esCorrecta: false,
-              },
+              { id: 'a', texto: 'Análisis Descriptivo.', esCorrecta: false },
+              { id: 'b', texto: 'Análisis Predictivo.', esCorrecta: true },
+              { id: 'c', texto: 'Visualización de Datos.', esCorrecta: false },
+              { id: 'd', texto: 'Informes mensuales.', esCorrecta: false },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+            mensaje_correcto:
+              '¡Correcto! El análisis predictivo, a través de modelos de scoring crediticio, permitirá identificar a los clientes con mayor probabilidad de incumplimiento, ayudando a la empresa a tomar medidas preventivas.',
+            mensaje_incorrecto:
+              'Revisa la retroalimentación y vuelve a intentarlo.',
           },
           {
             id: 5,
             texto:
-              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
+              'Eres parte del equipo de datos de una empresa global de moda. Quieren saber cuál sería el mejor lugar para abrir una nueva tienda física. ¿Qué tipo de herramienta o técnica ayudaría a decidirlo?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
-              {
-                id: 'a',
-                texto: 'Aplicar una sanción severa',
-                esCorrecta: false,
-              },
+              { id: 'a', texto: 'Informes estáticos.', esCorrecta: false },
               {
                 id: 'b',
-                texto: 'Reparar el daño y restablecer las relaciones',
+                texto: 'Algoritmos de Optimización y Simulación de Datos.',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Castigar a las partes involucradas',
+                texto: 'Gráficos simples en Excel.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Ignorar el contexto del conflicto',
+                texto: 'Método cualitativo de entrevistas a empleados.',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+            mensaje_correcto:
+              '¡Muy bien! La optimización y simulación de datos permiten modelar diferentes escenarios, considerando variables como demanda, competencia, costos y logística, para encontrar la mejor ubicación estratégica.',
+            mensaje_incorrecto:
+              'Revisa la retroalimentación y vuelve a intentarlo.',
           },
         ],
         mensaje_final_aprobado:
