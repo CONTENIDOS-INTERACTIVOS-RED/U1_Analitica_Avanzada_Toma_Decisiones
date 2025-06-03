@@ -314,6 +314,24 @@
                     h5.mb-0 Google Forms y SurveyMonkey.
           
 
+      .bg-full-width.bg-color-3
+        .px-4.p-md-5
+          .row.justify-content-center.align-items-center
+            .col-lg-8
+              h2.mb-4(data-aos="flip-up") Herramientas y plataformas tecnológicas para la analítica avanzada
+              p.mb-4(data-aos="fade-right") Se invita cordialmente a revisar el documento Herramientas y plataformas tecnológicas para la analítica avanzada, donde se presentan las características, usos y beneficios de herramientas clave como Power BI, Tableau, Python y R.
+      
+              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+                .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+                  img(src="@/assets/template/icono-pdf.svg")
+                .anexo__texto
+                  p <strong>Anexo. </strong> Herramientas y plataformas tecnológicas para la analítica avanzada
+      
+            .col-lg-4
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema2/15.png', alt='')
+      
+
       .bg-full-width.border-top.actividad.bg-color-actividad
         .p-4.p-md-5
           #Actividad                
