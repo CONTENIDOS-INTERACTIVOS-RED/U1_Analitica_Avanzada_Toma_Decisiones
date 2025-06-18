@@ -340,9 +340,10 @@
                   img(src='@/assets/curso/tema1/info1.png', alt='', style="max-width: 896px;").mx-auto
     
               .bg-color-white.box-shadow.p-3(x="28%" y="61%" numero="+")
-                h5 1. Optimización de la cadena de suministro
+                h5 4. Salud y atención médica
 
-                p Empresas como Amazon y UPS utilizan este análisis para definir rutas de entrega, optimizar inventarios y reducir costos logísticos mediante simulaciones y algoritmos.
+                p Soluciones como IBM Watson Health lo usan para recomendar tratamientos personalizados basados en datos clínicos del paciente.
+
     
               .bg-color-white.box-shadow.p-3(x="32%" y="28%" numero="+")
                 h5 2. Marketing personalizado y ventas
@@ -350,15 +351,13 @@
                 p Plataformas como Netflix y Spotify lo emplean para recomendar contenidos o productos personalizados, mejorando la experiencia del usuario y la retención.
     
               .bg-color-white.box-shadow.p-3(x="51.5%" y="11.5%" numero="+")
-                h5 3. Gestión financiera
+                h5 1. Optimización de la cadena de suministro
 
-                p Bancos como JP Morgan aplican este análisis para gestionar inversiones, simular riesgos y optimizar recursos financieros.
-    
+                p Empresas como Amazon y UPS utilizan este análisis para definir rutas de entrega, optimizar inventarios y reducir costos logísticos mediante simulaciones y algoritmos.
+
               .bg-color-white.box-shadow.p-3(x="70.5%" y="28%" numero="+")
-                h5 4. Salud y atención médica
-
-                p Soluciones como IBM Watson Health lo usan para recomendar tratamientos personalizados basados en datos clínicos del paciente.
-    
+                h5 3. Gestión financiera
+                p Bancos como JP Morgan aplican este análisis para gestionar inversiones, simular riesgos y optimizar recursos financieros.
               .bg-color-white.box-shadow.p-3(x="75%" y="62%" numero="+")
                 h5 5. Manufactura inteligente
 

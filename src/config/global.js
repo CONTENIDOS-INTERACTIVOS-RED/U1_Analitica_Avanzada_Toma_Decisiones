@@ -46,26 +46,6 @@ export default {
         numero: '2',
         titulo: 'Métodos cuantitativos y cualitativos en la toma de decisiones',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_3',
-          },
-        ],
       },
       {
         nombreRuta: 'sintesis',
